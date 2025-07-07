@@ -2,12 +2,12 @@
 
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 
-REPO = 'https://github.com/nuhmanpk/WebScrapper/'
+REPO = 'https://t.me/world_0f_parad0x'
 
 FINISHED_PROGRESS_STR = "▓"
 UN_FINISHED_PROGRESS_STR = "░"
 
-START_TEXT = "Hello , I am a web scrapper bot.\nSend me any link for scrapping.\n\nJoin @BugHunterBots"
+START_TEXT = "Hello , I am a web scrapper bot.\nSend me any link for scrapping.\n\nJoin @world_0f_parad0x"
 
 START_BUTTON = InlineKeyboardMarkup(
     [
@@ -41,7 +41,7 @@ OPTIONS = InlineKeyboardMarkup(
         [
             InlineKeyboardButton('🔗 All Links', callback_data='cballlinks'),
             InlineKeyboardButton('📃 All Paragraphs'
-                                , callback_data='cballparagraphs')
+    , callback_data='cballparagraphs')
         ],
         [
             InlineKeyboardButton('🌄 All Images', callback_data='cballimages')
@@ -55,16 +55,15 @@ OPTIONS = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton('🍪 Cookies', callback_data='cbcookies'),
-            InlineKeyboardButton(
-                '📦 LocalStorage', callback_data='cblocalstorage')
+            InlineKeyboardButton('📦 LocalStorage', callback_data='cblocalstorage')
         ],
         [
             InlineKeyboardButton('📊 Metadata', callback_data='cbmetadata')
         ],
-        # [
-        #     InlineKeyboardButton('📷 Screenshot', callback_data='cbscreenshot'),
-        #     InlineKeyboardButton('🎬 Screen Record', callback_data='cbscreenrecord')
-        # ],
+         [
+            InlineKeyboardButton('📷 Screenshot', callback_data='cbscreenshot'),
+            InlineKeyboardButton('🎬 Screen Record', callback_data='cbscreenrecord')
+         ],
         [
             InlineKeyboardButton('🕷️ Crawl Complete Web', callback_data='cbcrawl')
         ],
