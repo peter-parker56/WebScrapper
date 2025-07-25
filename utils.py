@@ -17,8 +17,7 @@ START_BUTTON = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton('All Links', callback_data='cballlinks'),
-            InlineKeyboardButton(
-                'All Paragraphs', callback_data='cballparagraphs')
+            InlineKeyboardButton('All Paragraphs', callback_data='cballparagraphs')
         ],
         [
             InlineKeyboardButton('All Images', callback_data='cballimages')
@@ -40,8 +39,7 @@ OPTIONS = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton('🔗 All Links', callback_data='cballlinks'),
-            InlineKeyboardButton('📃 All Paragraphs'
-    , callback_data='cballparagraphs')
+            InlineKeyboardButton('📃 All Paragraphs', callback_data='cballparagraphs')
         ],
         [
             InlineKeyboardButton('🌄 All Images', callback_data='cballimages')
@@ -60,10 +58,10 @@ OPTIONS = InlineKeyboardMarkup(
         [
             InlineKeyboardButton('📊 Metadata', callback_data='cbmetadata')
         ],
-      #   [
-      #     InlineKeyboardButton('📷 Screenshot', callback_data='cbscreenshot'),
-      #      InlineKeyboardButton('🎬 Screen Record', callback_data='cbscreenrecord')
-      #    ],
+         [
+           InlineKeyboardButton('📷 Screenshot', callback_data='cbscreenshot'),
+           InlineKeyboardButton('🎬 Screen Record', callback_data='cbscreenrecord')
+          ],
         [
             InlineKeyboardButton('🕷️ Crawl Complete Web', callback_data='cbcrawl')
         ],
